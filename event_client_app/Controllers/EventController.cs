@@ -15,7 +15,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace event_client_app.Controllers
 {
-    [Authorize]
     [ApiController]
     [EnableCors("AllowCors")]
     public class EventController : Controller
@@ -589,10 +588,10 @@ namespace event_client_app.Controllers
             return Ok();
         }
 
-        public void TestReference()
-        {
-            //MemberShip ms = new MemberShip();
-            MemberShip.GetMember();
-        }
+        // private void TestReference()
+        // {
+        //     //MemberShip ms = new MemberShip();
+        //     MemberShip.GetMember();
+        // }
     }
 }

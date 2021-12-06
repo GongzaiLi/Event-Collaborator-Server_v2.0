@@ -24,7 +24,6 @@ namespace event_client_app
         {
             services.AddDbContext<DBAPPContext>(options => options.UseMySql(Configuration.GetConnectionString("MySQL"),
                 MySqlServerVersion.LatestSupportedServerVersion));
-
             services.AddControllers();
             // services.AddAuthentication();
             services.AddMvc(opt => { opt.UseCentralRouterPrefix(new RouteAttribute("api/v1")); });
