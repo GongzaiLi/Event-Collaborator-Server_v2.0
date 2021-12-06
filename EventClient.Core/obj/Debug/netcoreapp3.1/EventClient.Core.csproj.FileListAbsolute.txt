@@ -1,0 +1,9 @@
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/bin/Debug/netcoreapp3.1/EventClient.Core.deps.json
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/bin/Debug/netcoreapp3.1/EventClient.Core.dll
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/bin/Debug/netcoreapp3.1/EventClient.Core.pdb
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.csprojAssemblyReference.cache
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.AssemblyInfoInputs.cache
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.AssemblyInfo.cs
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.csproj.CoreCompileInputs.cache
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.dll
+/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/Debug/netcoreapp3.1/EventClient.Core.pdb

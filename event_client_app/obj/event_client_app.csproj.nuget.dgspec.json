@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gongzaili/Documents/C#/event_client_app/event_client_app/event_client_app.csproj": {}
+  },
+  "projects": {
+    "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/EventClient.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/EventClient.Core.csproj",
+        "projectName": "EventClient.Core",
+        "projectPath": "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/EventClient.Core.csproj",
+        "packagesPath": "/Users/gongzaili/.nuget/packages/",
+        "outputPath": "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gongzaili/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gongzaili/Documents/C#/event_client_app/event_client_app/event_client_app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gongzaili/Documents/C#/event_client_app/event_client_app/event_client_app.csproj",
+        "projectName": "event_client_app",
+        "projectPath": "/Users/gongzaili/Documents/C#/event_client_app/event_client_app/event_client_app.csproj",
+        "packagesPath": "/Users/gongzaili/.nuget/packages/",
+        "outputPath": "/Users/gongzaili/Documents/C#/event_client_app/event_client_app/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gongzaili/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/EventClient.Core.csproj": {
+                "projectPath": "/Users/gongzaili/Documents/C#/event_client_app/EventClient.Core/EventClient.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Cosmos": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.415/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

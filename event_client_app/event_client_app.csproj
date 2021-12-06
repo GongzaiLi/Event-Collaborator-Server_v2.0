@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.12" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="5.0.12" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Storage_Image" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EventClient.Core\EventClient.Core.csproj" />
+    </ItemGroup>
+
+</Project>
