@@ -57,7 +57,7 @@ namespace event_client_app
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseRouting();
             // 
 
