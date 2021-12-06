@@ -16,7 +16,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    [EnableCors("AllowCors")]
     public class EventController : Controller
     {
         private IEventRepository _eventRepository;
@@ -425,11 +424,12 @@ namespace event_client_app.Controllers
 
             foreach (var attendee in attendeesList)
             {
+                User user = _userRepository.FindUserById(attendee.UserId);
                 getEventAttendeDtos.Add(new GetEventAttendeDTO
                 {
                     attendeeId = attendee.Id,
-                    firstName = organizer.FirstName,
-                    lastName = organizer.LastName,
+                    firstName = user.FirstName,
+                    lastName = user.LastName,
                     dateOfInterest = attendee.DataOfInterest,
                     status = attendee.Status.Name
                 });

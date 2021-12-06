@@ -12,7 +12,6 @@ using Microsoft.AspNetCore.Http;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    [EnableCors("AllowCors")]
     public class UserController : Controller
     {
         private HashAndVerify _hashAndVerify;
