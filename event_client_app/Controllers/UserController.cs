@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Http;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : ControllerBase // 由上述内容可以发现，如果只是单纯使用Web API 不会使用到View 相关功能，应该在建立Controller 时就继承自 ControllerBase 而非Controller
     {
         private HashAndVerify _hashAndVerify;
         private IUserRepository _userRepository;
