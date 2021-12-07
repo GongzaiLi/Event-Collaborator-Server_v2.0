@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Http;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    public class UserController : Controller
+    public class UserController : ControllerBase
     {
         private HashAndVerify _hashAndVerify;
         private IUserRepository _userRepository;

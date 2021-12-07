@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    public class ImageController : Controller
+    public class ImageController : ControllerBase
     {
         public ImageController(DBAPPContext dbContext)
         {

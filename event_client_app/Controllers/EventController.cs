@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace event_client_app.Controllers
 {
     [ApiController]
-    public class EventController : Controller
+    public class EventController : ControllerBase
     {
         private IEventRepository _eventRepository;
         private IEventCategoryRepository _eventCategoryRepository;
